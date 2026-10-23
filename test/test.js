@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import request from 'supertest';
-import app from '../src/app.js';
+import app from '../app.js';
 
 describe('GET /', () => {
     it('returns HTTP 200', async () => {
